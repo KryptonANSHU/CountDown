@@ -10,7 +10,7 @@
 
 body{
     margin: 0px;
-    background: url('Images/bg1.jpg') no-repeat;
+    background: url('bg1.jpg') no-repeat;
     background-size: cover; 
     /* background-position: center center;  */
     min-height: 100vh;
