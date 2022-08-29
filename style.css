@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 
 
@@ -11,17 +12,17 @@
 body{
     margin: 0px;
     background: url('bg1.jpg') no-repeat;
-    background-size: cover; 
+    background-size: cover;
     /* background-position: center center;  */
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 h1{
-
+  font-family: 'Aboreto', cursive;
     font-size: 4.2rem;
     font-weight: 400;
     margin-top: 5rem;
@@ -33,13 +34,13 @@ h1{
 
 .con{
     display: flex;
-    /* border: 5px solid #ffffff9c; 
+    /* border: 5px solid #ffffff9c;
     padding: 15px 70px  ; */
 }
 
 .big-text{
     text-align: center;
-    font-size: 6rem;    
+    font-size: 6rem;
     margin: 0px 60px;
 }
 
