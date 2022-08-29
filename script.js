@@ -7,7 +7,10 @@ let secEl = document.getElementById('sec');
 function countdown(){
 
 var currentTime= new Date().getTime();    // Curent Time
-const newYear = new Date("dec 31, 2021 23:59:59").getTime();    // destination time
+
+var year = new Date().getFullYear(); // gives us the current year
+// ${year} adds the year variable automatically.
+const newYear = new Date(`dec 31, ${year} 23:59:59`).getTime();    // destination time
 
 var difference = newYear - currentTime;
 // you have got the answere but in milliseconds
@@ -33,9 +36,4 @@ function Timeformat (time) {
 }
 
 setInterval(countdown,1000)
-// 1000ms = 1 sec 
-
-
-
-
-
+// 1000ms = 1 sec
